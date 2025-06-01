@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,12 +46,8 @@
         main {
             max-width: 1200px;
             margin: 2rem auto;
-            padding: 0 1rem;
-        }
-        
-        .schedule-container {
-            background-color: white;
             padding: 2rem;
+            background-color: white;
             border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             overflow-x: auto;
@@ -155,7 +152,7 @@
         }
         
         @media (max-width: 768px) {
-            .schedule-container {
+            main {
                 padding: 1rem;
             }
             
@@ -185,16 +182,15 @@
     </header>
 
     <main>
-        <div class="schedule-container">
-            <table>
-                <caption>Detailed Schedule of Events for TechCon 2024</caption>
-                <thead>
-                    <tr>
-                        <th scope="col">Time</th>
-                        <th scope="col">Session</th>
-                        <th scope="col">Speaker</th>
-                    </tr>
-                </thead>
+        <table>
+            <caption>Detailed Schedule of Events for TechCon 2024</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Time</th>
+                    <th scope="col">Session</th>
+                    <th scope="col">Speaker</th>
+                </tr>
+            </thead>
                 <tbody>
                     <tr class="day-header">
                         <td colspan="3">Day 1 - Monday, October 14, 2024</td>
@@ -333,8 +329,7 @@
                         <td class="speaker-cell">All Attendees</td>
                     </tr>
                 </tbody>
-            </table>
-        </div>
+        </table>
     </main>
 
     <footer>
