@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule for TechCon 2024 - Technology Conference</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        
+        nav {
+            margin-top: 1rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: #34495e;
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .schedule-container {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow-x: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            font-size: 1rem;
+        }
+        
+        caption {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: left;
+            font-weight: bold;
+            border-bottom: 3px solid #3498db;
+        }
+        
+        td {
+            padding: 1rem;
+            border-bottom: 1px solid #ddd;
+            vertical-align: top;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        tr:hover {
+            background-color: #e8f4fd;
+            transition: background-color 0.3s;
+        }
+        
+        .time-cell {
+            font-weight: bold;
+            color: #2c3e50;
+            white-space: nowrap;
+            min-width: 100px;
+        }
+        
+        .session-cell {
+            font-weight: bold;
+            color: #3498db;
+            min-width: 200px;
+        }
+        
+        .speaker-cell {
+            color: #555;
+            font-style: italic;
+            min-width: 150px;
+        }
+        
+        .keynote {
+            background-color: #fff3cd !important;
+            border-left: 5px solid #ffc107;
+        }
+        
+        .break {
+            background-color: #d1ecf1 !important;
+            border-left: 5px solid #17a2b8;
+        }
+        
+        .workshop {
+            background-color: #d4edda !important;
+            border-left: 5px solid #28a745;
+        }
+        
+        .networking {
+            background-color: #f8d7da !important;
+            border-left: 5px solid #dc3545;
+        }
+        
+        .day-header {
+            background-color: #34495e !important;
+            text-align: center;
+        }
+        
+        .day-header td {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: white;
+            padding: 1.5rem;
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .schedule-container {
+                padding: 1rem;
+            }
+            
+            table {
+                font-size: 0.9rem;
+            }
+            
+            th, td {
+                padding: 0.75rem 0.5rem;
+            }
+            
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Schedule for TechCon 2024</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="register.html">Register</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="schedule-container">
+            <table>
+                <caption>Detailed Schedule of Events for TechCon 2024</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Time</th>
+                        <th scope="col">Session</th>
+                        <th scope="col">Speaker</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="day-header">
+                        <td colspan="3">Day 1 - Monday, October 14, 2024</td>
+                    </tr>
+                    <tr class="break">
+                        <td class="time-cell">8:00 AM - 9:00 AM</td>
+                        <td class="session-cell">Registration & Welcome Coffee</td>
+                        <td class="speaker-cell">Conference Staff</td>
+                    </tr>
+                    <tr class="keynote">
+                        <td class="time-cell">9:00 AM - 10:00 AM</td>
+                        <td class="session-cell">Opening Keynote: "The Future of AI in Everyday Life"</td>
+                        <td class="speaker-cell">Dr. Sarah Chen, Former VP of AI Research, Google</td>
+                    </tr>
+                    <tr>
+                        <td class="time-cell">10:00 AM - 10:45 AM</td>
+                        <td class="session-cell">Machine Learning in Healthcare</td>
+                        <td class="speaker-cell">Dr. Michael Thompson, Stanford Medical AI Lab</td>
+                    </tr>
+                    <tr class="break">
+                        <td class="time-cell">10:45 AM - 11:00 AM</td>
+                        <td class="session-cell">Coffee Break</td>
+                        <td class="speaker-cell">-</td>
+                    </tr>
+                    <tr>
+                        <td class="time-cell">11:00 AM - 11:45 AM</td>
+                        <td class="session-cell">Cybersecurity Trends and Threats</td>
+                        <td class="speaker-cell">Marcus Rodriguez, CEO & Founder, SecureNet</td>
+                    </tr>
+                    <tr>
+                        <td class="time-cell">12:00 PM - 12:45 PM</td>
+                        <td class="session-cell">Blockchain Beyond Cryptocurrency</td>
+                        <td class="speaker-cell">Dr. Amara Okafor, Blockchain Pioneer</td>
+                    </tr>
+                    <tr class="break">
+                        <td class="time-cell">12:45 PM - 2:00 PM</td>
+                        <td class="session-cell">Lunch Break & Networking</td>
+                        <td class="speaker-cell">-</td>
+                    </tr>
+                    <tr class="workshop">
+                        <td class="time-cell">2:00 PM - 3:30 PM</td>
+                        <td class="session-cell">Workshop: Building Your First Neural Network</td>
+                        <td class="speaker-cell">Prof. Lisa Wang, MIT Computer Science</td>
+                    </tr>
+                    <tr>
+                        <td class="time-cell">3:45 PM - 4:30 PM</td>
+                        <td class="session-cell">Green Technology and Sustainability</td>
+                        <td class="speaker-cell">Kevin Nakamura, Green Tech Entrepreneur</td>
+                    </tr>
+                    <tr class="networking">
+                        <td class="time-cell">5:00 PM - 7:00 PM</td>
+                        <td class="session-cell">Welcome Reception & Networking</td>
+                        <td class="speaker-cell">All Attendees</td>
+                    </tr>
+
+                    <tr class="day-header">
+                        <td colspan="3">Day 2 - Tuesday, October 15, 2024</td>
+                    </tr>
+                    <tr class="keynote">
+                        <td class="time-cell">9:00 AM - 10:00 AM</td>
+                        <td class="session-cell">Keynote: "Quantum Computing: From Theory to Reality"</td>
+                        <td class="speaker-cell">Dr. Elena Vasquez, Quantum Computing Researcher, MIT</td>
+                    </tr>
+                    <tr>
+                        <td class="time-cell">10:00 AM - 10:45 AM</td>
+                        <td class="session-cell">IoT and Smart Cities</td>
+                        <td class="speaker-cell">Raj Patel, IoT Visionary & Smart Cities Consultant</td>
+                    </tr>
+                    <tr class="break">
+                        <td class="time-cell">10:45 AM - 11:00 AM</td>
+                        <td class="session-cell">Coffee Break</td>
+                        <td class="speaker-cell">-</td>
+                    </tr>
+                    <tr>
+                        <td class="time-cell">11:00 AM - 11:45 AM</td>
+                        <td class="session-cell">Cloud Computing Architecture</td>
+                        <td class="speaker-cell">James Mitchell, AWS Solutions Architect</td>
+                    </tr>
+                    <tr>
+                        <td class="time-cell">12:00 PM - 12:45 PM</td>
+                        <td class="session-cell">DevOps Best Practices</td>
+                        <td class="speaker-cell">Sofia Petrov, Senior DevOps Engineer, Netflix</td>
+                    </tr>
+                    <tr class="break">
+                        <td class="time-cell">12:45 PM - 2:00 PM</td>
+                        <td class="session-cell">Lunch Break</td>
+                        <td class="speaker-cell">-</td>
+                    </tr>
+                    <tr class="workshop">
+                        <td class="time-cell">2:00 PM - 3:30 PM</td>
+                        <td class="session-cell">Workshop: Kubernetes Deployment Strategies</td>
+                        <td class="speaker-cell">Ahmed Hassan, Platform Engineering Lead</td>
+                    </tr>
+                    <tr>
+                        <td class="time-cell">3:45 PM - 4:30 PM</td>
+                        <td class="session-cell">Data Science and Analytics</td>
+                        <td class="speaker-cell">Dr. Jennifer Liu, Chief Data Scientist, Spotify</td>
+                    </tr>
+                    <tr>
+                        <td class="time-cell">4:30 PM - 5:15 PM</td>
+                        <td class="session-cell">Panel: The Future of Work in Tech</td>
+                        <td class="speaker-cell">Multiple Industry Leaders</td>
+                    </tr>
+
+                    <tr class="day-header">
+                        <td colspan="3">Day 3 - Wednesday, October 16, 2024</td>
+                    </tr>
+                    <tr class="keynote">
+                        <td class="time-cell">9:00 AM - 10:00 AM</td>
+                        <td class="session-cell">Closing Keynote: "Building Inclusive Tech Communities"</td>
+                        <td class="speaker-cell">Maya Patel, Diversity & Inclusion Leader, Microsoft</td>
+                    </tr>
+                    <tr>
+                        <td class="time-cell">10:00 AM - 10:45 AM</td>
+                        <td class="session-cell">Startup Pitch Competition Finals</td>
+                        <td class="speaker-cell">Selected Startup Teams</td>
+                    </tr>
+                    <tr class="break">
+                        <td class="time-cell">10:45 AM - 11:00 AM</td>
+                        <td class="session-cell">Coffee Break</td>
+                        <td class="speaker-cell">-</td>
+                    </tr>
+                    <tr>
+                        <td class="time-cell">11:00 AM - 11:45 AM</td>
+                        <td class="session-cell">Ethics in Technology</td>
+                        <td class="speaker-cell">Dr. Robert Kim, Tech Ethics Institute</td>
+                    </tr>
+                    <tr>
+                        <td class="time-cell">12:00 PM - 12:30 PM</td>
+                        <td class="session-cell">Closing Remarks & Awards Ceremony</td>
+                        <td class="speaker-cell">TechCon 2024 Organizing Committee</td>
+                    </tr>
+                    <tr class="networking">
+                        <td class="time-cell">12:30 PM - 2:00 PM</td>
+                        <td class="session-cell">Farewell Lunch & Networking</td>
+                        <td class="speaker-cell">All Attendees</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2024 TechCon 2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>
